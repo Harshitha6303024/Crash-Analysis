@@ -1,0 +1,4 @@
+# Only needed for the drgn engine (analyzer/drgn_analyzer.py).
+# The crash-tool engine (analyzer/crash_analyzer.py) has zero Python
+# dependencies - it shells out to the `crash` binary.
+drgn>=0.0.27
